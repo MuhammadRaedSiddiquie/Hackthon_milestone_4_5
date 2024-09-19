@@ -1,0 +1,207 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Container */
+main {
+    background-color: #fff;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+/* Image Styling */
+.image {
+    width: 200px;
+    height: 200px;
+    background-color: #868686;
+    border: 2px solid #868686;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Container */
+.container {
+    width: 800px;
+    height: fit-content;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Headings */
+.heading-main {
+    font-family: monospace;
+    margin: 20px 0;
+    font-size: 50px;
+}
+
+.heading-pic {
+    font-family: math;
+    font-size: 34px;
+}
+
+/* Resume Data Section */
+#resumeData {
+    background-color: #f2f2f2a3;
+    border: 1px solid #868686;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10vh;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 50px 10px;
+}
+
+#resumeData fieldset {
+    display: flex;
+    width: 70%;
+    border: 2px solid #cecccc;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: 0px 8px 20px 4px #e5e5e5;
+}
+
+#resumeData fieldset input[type=text],
+#resumeData fieldset input[type=number],
+#resumeData fieldset input[type=tel],
+#resumeData fieldset input[type=email],
+#resumeData fieldset input[type=date],
+#resumeData fieldset textarea,
+#resumeData fieldset select {
+    margin-bottom: 15px;
+    height: 40px;
+    border-radius: 7px;
+    padding: 0 10px;
+    outline: none;
+    border: 2px solid #e0e0e0;
+}
+
+#resumeData fieldset textarea {
+    padding: 10px 10px;
+    resize: none;
+}
+
+#resumeData fieldset label {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+}
+
+#resumeData fieldset legend {
+    font-size: 34px;
+    font-family: math;
+}
+
+#resumeData fieldset input[type=submit] {
+    background-color: rgb(3, 115, 219);
+    color: white;
+    padding: 11px 23px;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 50px 0;
+}
+
+/* Skills Section */
+#skillMain {
+    display: flex;
+    flex-direction: column;
+}
+#eduMain{
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-btn {
+    background-color: #0373db;
+    border-radius: 5px;
+    text-align: center;
+    width: 40%;
+    margin: 10px 145px;
+    padding: 12px;
+    color: white;
+}
+
+/* Edit Panel */
+.edit-panel {
+    background-color: #fff;
+    border-left: 2px solid #0373db;
+    width: 30%;
+    display: none;
+    flex-direction: column;
+    padding: 30px 15px;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: sticky;
+    top: 0;
+    gap: 15px;
+}
+
+.edit-text {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+}
+
+.edit-panel input[type=color] {
+    width: 150px;
+    height: 35px;
+}
+
+.font-style {
+    height: 30px;
+    background-color: #0373db;
+    width: 100px;
+    color: #fff;
+    border-radius: 12px;
+}
+
+/* Buttons Section */
+.buttons {
+    display: none;
+    flex-direction: column;
+}
+
+.create-btn,
+#resumeData fieldset input[type=submit] {
+    background-color: rgb(3, 115, 219);
+    color: white;
+    padding: 11px 50px;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 50px 0;
+}
+
+/* Resume Link */
+#resumeLink {
+    font-size: 24px;
+    font-family: monospace;
+    text-align: center;
+    margin: 15px 0;
+}
+#eduMain2{
+    flex-direction: column;
+    display: none;
+}
+#jobMain{
+    flex-direction: column;
+    display: none;
+    margin-top: 70px;
+}
